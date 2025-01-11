@@ -44,6 +44,11 @@ body{
     font-weight: 600;
 }
 
+.btn-primary:hover{
+    background-color: rgb(77, 145, 128);
+    color: rgb(0, 0, 0);
+}
+
 .dark-green-shade{
     background-color: rgb(0, 106, 80);
 }
@@ -121,7 +126,9 @@ nav{
     font-weight: 600;
     color: rgb(255, 255, 255);
 }
-
+.hero-btn:hover{
+    background-color: rgb(77, 145, 128);
+}
 
 
 /* -----------------------------------right div */
@@ -165,6 +172,9 @@ nav{
     padding: 24px;
     padding-bottom: 10px;
 }
+.card:hover{
+    background-color: rgb(250, 248, 248);
+}
 /* ----------------------------------------------Vision Sections style*/
 
 .vision-BD{
@@ -184,17 +194,17 @@ nav{
     padding: 32px;
     box-sizing: border-box;
     border-radius: 16px;
-    background: rgba(84, 144, 245, 0.2);
-    
+    background: rgba(84, 144, 245, 0.2); 
 }
+
 .vision-card-2{
     width: 410.67px;
     padding: 32px;
     box-sizing: border-box;
     border-radius: 16px;
     background: rgb(198, 228, 214);
-    /* margin-bottom: 250px; */
 }
+
 .vision-card-3{
     width: 410.67px;
     padding: 32px;
@@ -204,16 +214,54 @@ nav{
 }
 
 .learn-more-button-1{
+    width: 130px;
+    height: 41px;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
     background: rgb(84, 144, 245);
     margin-top: 32px;
 }
+.learn-more-button-1:hover{
+    background-color: rgb(1, 53, 143);
+}
+
 .learn-more-button-2{
+    width: 130px;
+    height: 41px;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
     background: rgb(9, 161, 92);
     margin-top: 32px;
 }
+.learn-more-button-2:hover{
+    background-color: rgb(0, 106, 80);
+}
+
 .learn-more-button-3{
+    width: 130px;
+    height: 41px;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
     background: rgb(255, 194, 57);
     margin-top: 32px;
+}
+.learn-more-button-3:hover{
+    background-color: orange;
 }
 
 /* Quotation container */
@@ -271,10 +319,11 @@ nav{
 
 }
 
-/* ----------------------------------------------Pricing Sections style*/
+/* ----------------------------------------------Pricing / donate now Sections style*/
 .donation-container{
     margin-bottom: 80px;
     text-align: center;
+    align-items: center;
 }
 
 .pricing-display-container{
@@ -285,8 +334,6 @@ nav{
 }
 
 .price-box{
-    /* width: 240px;
-    height: 128px; */
     padding: 0px 38px 3px 40px;
     font-size: 40px;
     font-weight: 700;
@@ -297,6 +344,7 @@ nav{
     margin-top: 32px;
     text-align: center;
 }
+
 .price-box:hover{
     background-color: #006A50;
     color: white;
@@ -314,12 +362,14 @@ input[type=number]{
     margin-top: 32px;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 16px;
+    border-radius: 5px;
     background: rgb(255, 255, 255);
     text-align: center;
     margin-bottom: 32px;
 }
-
+input[type=number]:hover{
+    background-color: rgb(250, 248, 248);
+}
 ::placeholder{
     font-size: 20px;
     font-weight: 400;
@@ -338,7 +388,7 @@ input[type=text]{
     display: inline;
     width: 80%;
     height: auto;
-    padding: 20px 40px 20px 40px;
+    padding: 24px 40px 21px 40px;
     margin-top: 32px;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -351,11 +401,38 @@ input[type=text]{
 .btn-subscribe{
     display: inline;
     width: 150px;
-    height: 56px;
+    height: 60px;
     font-family: Fira Sans;
     font-size: 18px;
     font-weight: 600;
     border-radius: 0px 8px 8px 0px;
     color: white;
     background: rgb(0, 106, 80);
+    border: none;
 }
+.btn-subscribe:hover{
+    background-color: rgb(77, 145, 128);
+    color: rgb(0, 0, 0);
+}
+     
+/* ----------------------------------------------Footer Sections style*/
+
+.footer{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px 160px 50px 160px;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+
+.social-media-logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+
