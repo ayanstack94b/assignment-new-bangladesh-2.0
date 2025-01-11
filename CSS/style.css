@@ -32,6 +32,20 @@ body{
     font-weight: 700;
 }
 
+.btn-primary{
+    width: 130px;
+    height: 41px;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
 /* ===============================================Common Css Ends*/
 
 /* =================================================Header styles*/
@@ -130,13 +144,13 @@ nav{
     font-weight: 700;
 }
 
-/* ----------------------------------------------vision & core values / pillars */
+/* ----------------------------------------------core values / pillars styles*/
 
 .pillars-card-container{
-   display: flex;
-   justify-content: space-evenly;
-   gap: 24px;
-   margin-bottom: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+    margin-bottom: 80px;
 }
 
 .card{
@@ -149,3 +163,110 @@ nav{
     padding: 24px;
     padding-bottom: 10px;
 }
+/* ----------------------------------------------Vision Sections style*/
+
+.vision-BD{
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.vision-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.vision-card-1{
+    width: 410.67px;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    
+}
+.vision-card-2{
+    width: 410.67px;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    /* margin-bottom: 250px; */
+}
+.vision-card-3{
+    width: 410.67px;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+}
+
+.learn-more-button-1{
+    background: rgb(84, 144, 245);
+    margin-top: 32px;
+}
+.learn-more-button-2{
+    background: rgb(9, 161, 92);
+    margin-top: 32px;
+}
+.learn-more-button-3{
+    background: rgb(255, 194, 57);
+    margin-top: 32px;
+}
+
+/* Quotation container */
+
+.quotation-container{
+    height: 256px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 80px;
+    background-image: url('../assets/quote-bg.png');
+    background-position: 23px 28px;
+    background-repeat: no-repeat;
+    padding: 48px 24px 48px 24px;
+}
+/* ----------------------------------------------News Sections style*/
+
+.news-container{
+
+}
+.media-info-blog{
+    display: flex;
+    gap: 32px;
+    border-radius: 24px;
+    background-color: rgb(255, 255, 255);
+    padding: 48px;
+    border: 0.5px solid rgba(14, 14, 14, 0.15);
+    margin-bottom: 32px;
+}
+
+.media-info-blog-reverse{
+    display: flex;
+    gap: 32px;
+    border-radius: 24px;
+    background-color: rgb(255, 255, 255);
+    padding: 48px;
+    border: 0.5px solid rgba(14, 14, 14, 0.15);
+    margin-bottom: 32px;
+}
+
+.media-info-blog img{
+    border-radius: 24px;
+}
+
+.media-header{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.blog-btn{
+    border-radius: 8px;
+    background-color: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+
+}
+
+
