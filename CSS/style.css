@@ -55,7 +55,7 @@ body{
 
 /* ===============================================Common Css Ends*/
 
-/* =================================================Header styles*/
+/* =============================Header styles*/
 /* nav styles */
 nav{
     display: flex;
@@ -89,10 +89,8 @@ nav{
 /* Banner / Hero section */
 
 .banner{
-    /* width: 1280px; */
     height: 580px;
     display: flex;
-    /* flex-direction: row; */
     justify-content: space-evenly;
     align-items: center;
     padding: 80px 100px 80px 100px;
@@ -101,8 +99,8 @@ nav{
     margin-top: 51px;
     margin-bottom: 80px;
 }
-/* --------------------------left div text area*/
 
+/* --------------------------left div text area*/
 .container-caption{
     font-size: 30px;
     font-weight: 700;
@@ -133,7 +131,6 @@ nav{
 
 /* -----------------------------------right div */
 .header-visual{
-    /* background-color: green; */
     width: 474.03px;
     height: 329.21px;
 }
@@ -143,7 +140,7 @@ nav{
 }
 
 /* =================================================Main Section styles*/
-/* Pillars-section */
+/* Pillars */
 
 .foundations-section{
     margin-bottom: 32px;
@@ -279,10 +276,6 @@ nav{
     padding: 48px 24px 48px 24px;
 }
 /* ----------------------------------------------News Sections style*/
-
-.news-container{
-
-}
 .media-info-blog{
     display: flex;
     gap: 32px;
@@ -316,8 +309,8 @@ nav{
     border-radius: 8px;
     background-color: rgb(0, 106, 80);
     color: rgb(255, 255, 255);
-
 }
+
 
 /* ----------------------------------------------Pricing / donate now Sections style*/
 .donation-container{
@@ -370,6 +363,7 @@ input[type=number]{
 input[type=number]:hover{
     background-color: rgb(250, 248, 248);
 }
+
 ::placeholder{
     font-size: 20px;
     font-weight: 400;
@@ -415,7 +409,7 @@ input[type=text]{
     color: rgb(0, 0, 0);
 }
      
-/* ----------------------------------------------Footer Sections style*/
+/* ==============================================Footer Sections style*/
 
 .footer{
     background-color: rgb(255, 255, 255);
@@ -435,4 +429,4 @@ hr{
     margin-top: 32px;
     margin-bottom: 50px;
 }
-
+/* ==================================================(END)======================================================= */
