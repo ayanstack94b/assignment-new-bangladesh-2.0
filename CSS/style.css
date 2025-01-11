@@ -6,13 +6,20 @@ body{
 }
 
 .fira-sans-normal {
-    font-family: "Fira Sans", sans-serif; 
+    font-family: "Fira Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-variation-settings: "wdth" 100; 
+    font-variation-settings:
+        "wdth" 100;
+    }
+
+.faded-black{
+    color: #0E0E0E80;
 }
 
-
+.black-text{
+    color: #0E0E0E;
+}
 
 /* ===============================================Common Css Ends*/
 
@@ -21,7 +28,15 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 31px;
 }
+
+.nav-text{
+    font-size: 38px;
+    font-weight: 900;
+}
+
 .sign-in-btn{
     width: 116px;
     height: 52px;
@@ -40,3 +55,55 @@ nav{
 }
 
 /* Banner / Hero section */
+
+.banner{
+    /* width: 1280px; */
+    height: 580px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px 100px 80px 100px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin-top: 51px;
+    margin-bottom: 80px;
+}
+/* --------------------------left div text area*/
+
+.container-caption{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.hero-text{
+    width: 622px;
+    font-size: 56px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+
+.hero-btn{
+    width: 320px;
+    padding: 19px 42px 19px 43px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* -----------------------------------right div */
+.header-visual{
+    /* background-color: green; */
+    width: 474.03px;
+    height: 329.21px;
+}
+.header-visual img{
+     width: 511px;
+     height: 429px;
+}
