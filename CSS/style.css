@@ -44,7 +44,9 @@ body{
     font-weight: 600;
 }
 
-
+.dark-green-shade{
+    background-color: rgb(0, 106, 80);
+}
 
 /* ===============================================Common Css Ends*/
 
@@ -269,4 +271,56 @@ nav{
 
 }
 
+/* ----------------------------------------------Pricing Sections style*/
+.donation-container{
+    margin-bottom: 80px;
+    text-align: center;
+}
 
+.pricing-display-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.price-box{
+    /* width: 240px;
+    height: 128px; */
+    padding: 0px 38px 3px 40px;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin-top: 32px;
+    text-align: center;
+}
+.price-box:hover{
+    background-color: #006A50;
+    color: white;
+}
+.common-green-shade{
+ background-color: rgb(198, 228, 214);
+}
+
+/* Input field */
+
+input[type=number]{
+    width: 100%;
+    height: auto;
+    padding: 20px 40px 20px 40px;
+    margin-top: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+::placeholder{
+    font-size: 20px;
+    font-weight: 400;
+}
