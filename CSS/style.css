@@ -6,7 +6,7 @@ body{
 }
 
 .fira-sans-normal {
-    font-family: "Fira Sans", serif;
+    font-family: "Fira Sans";
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:
@@ -19,6 +19,17 @@ body{
 
 .black-text{
     color: #0E0E0E;
+}
+.primary-text{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-name{
+    font-size: 20px;
+    font-weight: 700;
 }
 
 /* ===============================================Common Css Ends*/
@@ -106,4 +117,35 @@ nav{
 .header-visual img{
      width: 511px;
      height: 429px;
+}
+
+/* =================================================Main Section styles*/
+/* Pillars-section */
+
+.foundations-section{
+    margin-bottom: 32px;
+}
+.pillars-header{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* ----------------------------------------------vision & core values / pillars */
+
+.pillars-card-container{
+   display: flex;
+   justify-content: space-evenly;
+   gap: 24px;
+   margin-bottom: 80px;
+}
+
+.card{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    width: 302px;
+    height: 244px;
+    padding: 24px;
+    padding-bottom: 10px;
 }
